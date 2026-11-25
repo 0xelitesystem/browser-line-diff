@@ -1,8 +1,8 @@
-# Text Diff Viewer
+# Browser Line Diff
 
 Compare two blocks of text and see a line-level diff in your browser. No server, no tracking, no third-party scripts.
 
-**Live demo:** https://0xelitesystem.github.io/text-diff-viewer/
+**Live demo:** https://0xelitesystem.github.io/browser-line-diff/
 
 ## Use
 
@@ -28,8 +28,8 @@ Everything runs in your browser. The two blocks of text and the computed diff ne
 ## Run locally
 
 ```bash
-git clone https://github.com/0xelitesystem/text-diff-viewer
-cd text-diff-viewer
+git clone https://github.com/0xelitesystem/browser-line-diff
+cd browser-line-diff
 # Open index.html in your browser, or:
 python -m http.server 8000
 ```
@@ -60,5 +60,5 @@ MIT.
 ## Related
 
 - [json-formatter-and-validator](https://github.com/0xelitesystem/json-formatter-and-validator), format and validate JSON in your browser
-- [case-converter](https://github.com/0xelitesystem/case-converter), convert text between casing styles
+- [naming-case-converter](https://github.com/0xelitesystem/naming-case-converter), convert text between casing styles
 - [regex-tester](https://github.com/0xelitesystem/regex-tester), test regular expressions against sample text
